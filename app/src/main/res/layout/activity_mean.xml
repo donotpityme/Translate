@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mean">
+
+
+    <WebView
+        android:id="@+id/webview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+    </WebView>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_x="330dp"
+        android:layout_y="44dp"
+        android:background="@drawable/ic_star_border_black_24dp" />
+
+    <Button
+        android:id="@+id/notsave"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_x="330dp"
+        android:layout_y="44dp"
+        android:background="@drawable/ic_star_black_24dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/speech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="315dp"
+        android:layout_y="504dp"
+        android:src="@drawable/ic_volume_mute_black_24dp"
+        app:backgroundTint="@android:color/background_light" />
+
+</AbsoluteLayout>

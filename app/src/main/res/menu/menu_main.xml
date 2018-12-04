@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.openai.translate.MainActivity">
+    <item
+        android:id="@+id/action_your"
+        android:orderInCategory="100"
+        android:title="Từ của bạn"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_toeic"
+        android:orderInCategory="100"
+        android:title="Từ vựng TOEIC"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_ielts"
+        android:orderInCategory="100"
+        android:title="Từ vựng IELTS"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_toelf"
+        android:orderInCategory="100"
+        android:title="Từ vựng TOELF"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_del"
+        android:orderInCategory="100"
+        android:title="Xóa lịch sử"
+        app:showAsAction="never"/>
+
+</menu>
